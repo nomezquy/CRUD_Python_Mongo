@@ -19,6 +19,7 @@ class Carro:
         print(f"Has encendido tu carro {self.marca}")
 
 
+
 persona1 = Persona()
 carro1 = Carro("Chevrolet","negro")
 carro1.encender()
@@ -28,3 +29,10 @@ carro1.encender()
 class trabajador(Persona):
     def __init__(self) -> None:
         super().__init__()
+
+#ToString
+"""
+def __str__(self):
+    cadena = self[atri1]+"," + self.apellido
+    return cadena
+"""
