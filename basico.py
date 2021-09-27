@@ -63,3 +63,30 @@ print("Daniel"+ " " + "Nomezquy")
 nombre = "Daniel"
 anios = 22
 print(f"{anios} son los años que tiene {nombre} ")
+
+
+#listas
+
+lista = [1,2,3,4,5]
+listastring = ["daniel","Tatiana",]
+listamix = ["daniel",22,False]
+# Para conocer el tamaño de la lista len([nombre de la lista]) 
+# se puede usar en un print print(len(lista))
+
+#acceder a un elemento con el index  [nombre de la Lista][número index]
+#ejemplo:  lista[0] -> 1
+# listastring[0] -> daniel
+
+#Para agregar un elemento se utiliza append([valor a agregar])
+#ejemplo
+lista.append(6)
+
+#Para insertar en x index
+#lista.insert([index],[valor agregar])
+
+#para eliminar un valor de la lista
+#lista.remove(valor a eliminar)
+
+
+#con los indices negativos lo que hacemos es mostrar de atras en adelante si colocamos -1 
+#muestra el último valor y así sucesivamente.
