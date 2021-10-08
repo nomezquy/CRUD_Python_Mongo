@@ -7,8 +7,8 @@ def insert():
     try:
         employeeid = input('Ingrese el ID del empleado: ')
         employeename = input('Ingrese el nombre: ')
-        employeeage = input('Ingrese la edad del empleado')
-        employeecountry = input('Ingrese la ciudad del empleado')
+        employeeage = input('Ingrese la edad del empleado: ')
+        employeecountry = input('Ingrese la ciudad del empleado: ')
         db.Employees.insert(
         {
             "id":employeeid,
